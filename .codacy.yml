@@ -1,0 +1,8 @@
+exclude_paths:
+  - 'docs/**'
+  - '.github/**'
+  - '.travis.yml'
+  - 'codecov.yml' 
+  - 'mkdocs.yml'
+  - 'readthedocs.yml' 
+  - 'README.md'
