@@ -19,6 +19,16 @@ $ cmake --build .
 
 GameMesh has the most extensive and thorough [documentation](https://game-mesh.readthedocs.io/en/latest/), making it a breeze to get started with the framework.
 
+#### Built-in server
+
+A quick documention to install [mkdocs](https://www.mkdocs.org/#installation).
+
+```shell
+$ mkdocs serve
+```
+
+Open up `http://127.0.0.1:8000/` in your browser, and you'll see the document home page being displayed.
+
 ## Requirements
 
 **Required:**
