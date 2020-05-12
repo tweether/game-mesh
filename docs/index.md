@@ -1,17 +1,17 @@
-# Welcome to MkDocs
+# GameMesh
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+A fast, scalable, distributed, testable game server framework.
 
-## Commands
+## Requirements
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+**Required:**
 
-## Project layout
+- [conan](https://conan.io/) (>= 1.0)
+- [cmake](https://cmake.org/) (>= 3.8)
+- [gcc](https://gcc.gnu.org/) (>= 7.5)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+**Options:**
+
+- [cpplint](https://github.com/cpplint/cpplint)
+- [cppcheck](http://cppcheck.sourceforge.net/)
+- [lcov](http://ltp.sourceforge.net/coverage/lcov.php)
